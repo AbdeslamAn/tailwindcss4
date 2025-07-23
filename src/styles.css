@@ -80,8 +80,6 @@
     --text-5xl--line-height: 1;
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
-    --text-9xl: 8rem;
-    --text-9xl--line-height: 1;
     --font-weight-light: 300;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -520,6 +518,11 @@
   }
   .self-start {
     align-self: flex-start;
+  }
+  .card {
+    padding: 2rem;
+    border: solid 1px var(--color-stone-300);
+    border-radius: var(--radius-2xl);
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
